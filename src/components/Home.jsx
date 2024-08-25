@@ -1,4 +1,4 @@
-import { FaArrowRight } from "react-icons/fa";
+import { useRef, useState } from "react";
 
 const Home = () => {
   return (
@@ -58,13 +58,17 @@ const Home = () => {
         </div>
         <div className="w-80">
           <div className="border-l-2 border-highlight pl-3 text-text mt-3">
-            <p className="text-base">4 Aug 2024</p>
+            <p className="text-base">15 Aug 2024</p>
             <div className="pl-2">
               <p className="text-sm">Back Pain (Mild)</p>
             </div>
           </div>
         </div>
       </div>
+
+      <button className="bg-highlight text-background py-2 px-6 ml-4 rounded-full shadow-neo hover:bg-light relative -bottom-10 left-60">
+        Add
+      </button>
     </div>
   );
 };

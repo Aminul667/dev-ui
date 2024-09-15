@@ -1,5 +1,5 @@
 import Home from "./components/Home";
-import Navigation from "./components/Navigation";
+// import Navigation from "./components/Navigation";
 import Title from "./components/Title";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="flex items-center justify-center ">
         <Home></Home>
-        <Navigation></Navigation>
+        {/* <Navigation></Navigation> */}
       </div>
     </div>
   );
